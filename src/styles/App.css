@@ -23,3 +23,18 @@
   display: flex;
   padding: 15px;
 }
+
+.post-enter {
+  transform: translateX(-350px);
+}
+.post-enter-active {
+  transition: all 500ms ease-in;
+  transform: translateX(0);
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}

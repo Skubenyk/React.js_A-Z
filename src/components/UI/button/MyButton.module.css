@@ -7,3 +7,9 @@
   cursor: pointer;
   color: blue;
 }
+
+.myBtn:hover {
+  border: 1px solid yellow;
+  background-color: blue;
+  color: yellow;
+}
